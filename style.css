@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* for all container to get in center  */
+.container-center {
+  max-width: 900px;
+  margin: auto;
+}
+
+.section {
+  padding: 2rem;
+}
+
+/* header starts from here.*/
+header {
+  background-color: rgb(225, 225, 255);
+  border-bottom-left-radius: 3rem;
+}
+
+header.section {
+  padding-top: 0;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  padding-top: 2rem;
+  font-weight: 300;
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 0.9;
+  border-top: 4px solid rgb(226, 42, 186);
+}
+
+.logo a {
+  color: #89023e;
+}
+
+.logo a:hover {
+  color: #30343f;
+}
+
+.tagline {
+  color: #30343f;
+  position: relative;
+  left: 10.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  padding-left: 1rem;
+}
+
+.navbar a {
+  font-weight: 500;
+  color: #89023e;
+}
+.second {
+  font-weight: 400;
+  text-align: center;
+  line-height: 2;
+}
+.second h1 {
+  font-weight: 400;
+}
+.second p {
+  font-size: 1.3rem;
+}
+
+.btn {
+  margin: 1.5rem 0 2rem 0;
+  display: inline-block;
+  border: 3px solid #89023e;
+  border-radius: 1rem;
+  padding: 1rem 2.5rem;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #fd91c2c4;
+}
+
+/* header ends here.*/
+
+/* main starts here  */
+
+.main {
+  display: flex;
+}
+main.section {
+  margin: 2rem 0 2rem 0;
+  font-size: 15px;
+}
+img {
+  width: 300px;
+  margin: 1rem 2rem 1rem 0;
+  border-radius: 10px;
+}
+
+.bold {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.img h3 {
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+/* main ends here  */
+
+/* footer starts here  */
+footer {
+  background-color: mistyrose;
+  border-top-right-radius: 3rem;
+}
+footer .container-center {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .navbar {
+  font-size: 13px;
+}
+/* footer ends here  */
