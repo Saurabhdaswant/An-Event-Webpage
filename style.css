@@ -93,7 +93,6 @@ header.section {
 .second p {
   font-size: 1.3rem;
 }
-
 .btn {
   margin: 1.5rem 0 2rem 0;
   display: inline-block;
@@ -193,7 +192,7 @@ footer .navbar {
     line-height: 1.5;
   }
   .second h1 {
-    font-weight: 600;
+    font-weight: 300;
     margin: 1.5rem 0 1.5rem 0;
     line-height: 1.2;
   }
@@ -283,7 +282,7 @@ footer .navbar {
     line-height: 1.5;
   }
   .second h1 {
-    font-weight: 600;
+    font-weight: 300;
     margin: 1.5rem 0 1.5rem 0;
   }
   .second p {
