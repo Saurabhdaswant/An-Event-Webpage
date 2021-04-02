@@ -223,6 +223,7 @@ footer .navbar {
   }
 
   .img {
+    width: 300px;
     padding: 0.4rem;
     margin: 0 auto;
     border-radius: 2px;
