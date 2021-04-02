@@ -76,6 +76,11 @@ header.section {
   font-weight: 500;
   color: #89023e;
 }
+
+.navbar a:hover {
+  color: #30343f;
+  border-bottom: 3px solid #30343f;
+}
 .second {
   font-weight: 400;
   text-align: center;
@@ -144,3 +149,122 @@ footer .navbar {
   font-size: 13px;
 }
 /* footer ends here  */
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #89023e;
+  }
+
+  /* for all container to get in center  */
+  .container-center {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .section {
+    padding: 0.8rem;
+  }
+
+  /* header starts from here.*/
+
+  header.section {
+    padding-top: 0;
+  }
+
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0.5rem;
+  }
+
+  .logo {
+    padding-top: 1.3rem;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  /* navbar and tagline has been hidden here */
+  .fogo {
+    font-size: 12px;
+    display: none;
+  }
+
+  .second {
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .second h1 {
+    font-weight: 600;
+    margin: 1.5rem 0 1.5rem 0;
+    line-height: 1.2;
+  }
+  .second p {
+    font-size: 1rem;
+  }
+
+  /* header ends here.*/
+
+  footer .navbar {
+    display: none;
+    font-size: 13px;
+  }
+
+  /* main starts here  */
+
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  main.section {
+    margin: 2rem 0 2rem 0;
+    font-size: 15px;
+  }
+
+  .img {
+    width: 300px;
+    padding: 2rem;
+    margin: 0 auto;
+    /* border-radius: 10px; */
+    background-color: rgb(245, 242, 236);
+  }
+
+  .img {
+    margin-bottom: 2rem;
+  }
+  img {
+    border-radius: 0;
+  }
+  .img p {
+    align-items: center;
+  }
+  .bold {
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .img h3 {
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+  /* main ends here  */
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    background-color: #f3a0ca;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    background-color: #fccbe1;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  body {
+    background-color: #ff006f;
+  }
+}
