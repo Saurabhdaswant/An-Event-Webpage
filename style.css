@@ -223,18 +223,21 @@ footer .navbar {
   }
 
   .img {
-    width: 300px;
-    padding: 2rem;
+    padding: 0.4rem;
     margin: 0 auto;
-    /* border-radius: 10px; */
-    background-color: rgb(245, 242, 236);
+    border-radius: 2px;
+    background-color: rgb(228, 234, 238);
   }
 
   .img {
     margin-bottom: 2rem;
   }
+
   img {
+    width: 260px;
     border-radius: 0;
+    margin: 1rem;
+    border-radius: 5px;
   }
   .img p {
     align-items: center;
