@@ -89,6 +89,7 @@ header.section {
 .second h1 {
   font-weight: 300;
   text-transform: uppercase;
+  font-weight: 700;
 }
 .second p {
   font-size: 1.3rem;

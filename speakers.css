@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* for all container to get in center  */
+.container-center {
+  max-width: 900px;
+  margin: auto;
+}
+
+.section {
+  padding: 2rem;
+}
+
+/* header starts from here.*/
+header {
+  background-color: rgb(225, 225, 255);
+  /* border-bottom-left-radius: 1rem; */
+}
+
+header.section {
+  padding-top: 0;
+}
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 3rem;
+}
+
+.logo {
+  padding-top: 2rem;
+  font-weight: 500;
+  font-size: 45px;
+  text-transform: uppercase;
+  line-height: 0.9;
+  border-top: 4px solid rgb(226, 42, 186);
+}
+
+.logo a {
+  color: #89023e;
+}
+
+.logo a:hover {
+  color: #30343f;
+}
+
+.tagline {
+  color: #30343f;
+  position: relative;
+  left: 10.3rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  padding-left: 1rem;
+}
+
+.navbar a {
+  font-weight: 500;
+  color: #89023e;
+}
+
+.navbar a:hover {
+  color: #30343f;
+  border-bottom: 3px solid #30343f;
+}
+.second {
+  font-weight: 500;
+  text-align: center;
+  line-height: 2;
+  background-color: rgb(221, 217, 235);
+}
+.second h1 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.second p {
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+.btn {
+  margin: 1.5rem 0 2rem 0;
+  display: inline-block;
+  border: 3px solid #89023e;
+  border-radius: 1rem;
+  padding: 1rem 2.5rem;
+  color: black;
+}
+
+.btn:hover {
+  background-color: #fd91c2c4;
+}
+
+/* header ends here.*/
+
+@media only screen and (max-width: 480px) {
+  body {
+    background-color: #ffffff;
+  }
+
+  /* for all container to get in center  */
+
+  .section {
+    padding: 0.8rem;
+  }
+
+  /* header starts from here.*/
+
+  header.section {
+    padding-top: 0;
+  }
+
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0.5rem;
+  }
+
+  .logo {
+    padding-top: 1.3rem;
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  /* navbar and tagline has been hidden here */
+  .fogo {
+    font-size: 12px;
+    display: none;
+  }
+
+  .second {
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.5;
+  }
+  .second h1 {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2rem 0 1.5rem 0;
+    line-height: 1.2;
+  }
+  .second p {
+    font-size: 1rem;
+  }
+}
+/* header ends here.*/
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  /* for all container to get in center  */
+
+  .section {
+    padding: 1.5rem;
+  }
+
+  /* header starts from here.*/
+
+  .first {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3rem;
+  }
+
+  .logo {
+    padding-top: 2rem;
+    font-size: 30px;
+  }
+
+  /* navbar and tagline has been hidden here */
+  .fogo {
+    font-size: 12px;
+    display: none;
+  }
+
+  .second {
+    line-height: 1.5;
+  }
+  .second h1 {
+    font-weight: 500;
+    padding: 2rem 0 1.5rem 0;
+  }
+  .second p {
+    font-size: 1.2rem;
+  }
+}
+/* header ends here.*/
