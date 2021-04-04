@@ -272,6 +272,10 @@ footer .navbar {
   .img:hover {
     box-shadow: 0px 1.5px 4px 4px #a3a0a036;
   }
+  .img p,
+  h3 {
+    margin-left: 1.5rem;
+  }
   img {
     width: 200px;
     border-radius: 0;
