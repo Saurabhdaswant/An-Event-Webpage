@@ -88,11 +88,28 @@ header.section {
 .navbar a {
   font-weight: 500;
   color: #89023e;
+  position: relative;
 }
 
-.navbar a:hover {
-  color: #30343f;
-  border-bottom: 3px solid #30343f;
+.navbar a:after {
+  position: absolute;
+  content: " ";
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: #89023e;
+
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 250ms ease-in;
+}
+
+.navbar a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+
+  /* border-bottom: 3px solid #30343f; */
 }
 .second {
   font-weight: 500;
@@ -141,15 +158,14 @@ img {
   text-transform: uppercase;
   font-weight: 700;
 }
+.main .img {
+  color: black;
+}
 .img h3 {
   font-weight: 400;
   margin-bottom: 2rem;
 }
 
-.img p,
-h3 {
-  margin-left: 1.5rem;
-}
 /* main ends here  */
 
 /* footer starts here  */
@@ -243,10 +259,12 @@ footer .navbar {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    /* text-align: center; */
-    box-shadow: 0px 2px 5px 5px #a3a0a036;
+    box-shadow: 0px 4px 10px 10px #a3a0a036;
   }
 
+  .img:hover {
+    box-shadow: 0px 1.5px 4px 4px #a3a0a036;
+  }
   img {
     width: 200px;
     border-radius: 0;
@@ -328,8 +346,16 @@ footer .navbar {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    /* text-align: center; */
-    box-shadow: 0px 2px 5px 5px #a3a0a036;
+    box-shadow: 0px 4px 10px 10px #a3a0a036;
+  }
+
+  .img:hover {
+    box-shadow: 0px 1.5px 4px 4px #a3a0a036;
+  }
+
+  .img p,
+  h3 {
+    margin-left: 1rem;
   }
 
   img {
@@ -364,8 +390,16 @@ footer .navbar {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    /* text-align: center; */
-    box-shadow: 0px 2px 5px 5px #a3a0a036;
+    box-shadow: 0px 4px 10px 10px #a3a0a036;
+  }
+
+  .img:hover {
+    box-shadow: 0px 1.5px 4px 4px #a3a0a036;
+  }
+
+  .img p,
+  h3 {
+    margin-left: 1rem;
   }
 
   img {
@@ -397,7 +431,16 @@ footer .navbar {
     padding: 1rem;
     margin: 1rem;
     background-color: #ffffff;
-    box-shadow: 0px 2px 5px 5px #a3a0a036;
+    box-shadow: 0px 4px 10px 10px #a3a0a036;
+  }
+
+  .img:hover {
+    box-shadow: 0px 1.5px 4px 4px #a3a0a036;
+  }
+
+  .img p,
+  h3 {
+    margin-left: 1rem;
   }
 
   img {
