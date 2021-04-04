@@ -145,6 +145,11 @@ img {
   font-weight: 400;
   margin-bottom: 2rem;
 }
+
+.img p,
+h3 {
+  margin-left: 1rem;
+}
 /* main ends here  */
 
 /* footer starts here  */
@@ -399,10 +404,10 @@ footer .navbar {
     margin: 1rem;
     border-radius: 5px;
   }
-  .img p,
+  /* .img p,
   h3 {
     margin-left: 1rem;
-  }
+  } */
 
   /* main ends here  */
 }
