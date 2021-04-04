@@ -4,6 +4,18 @@
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
+  transition: 250ms ease;
+}
+:root {
+  --main-color: #91a6ff;
+  --rich-black: #00171f;
+  --silk: #f5d0c5;
+  --blu: #00a6fb;
+  --black: #000000ff;
+  --blue-jeans: #48acf0ff;
+  --tickle-me-pink: #ff82a9ff;
+  --spanish-pink: #ffc0beff;
+  --misty-rose: #ffebe7ff;
 }
 
 li {
@@ -25,10 +37,11 @@ a {
 
 /* header starts from here.*/
 header {
-  background-color: rgb(225, 225, 255);
+  /* background-color: rgb(225, 225, 255); */
+  background-color: #48acf0;
   border-bottom-left-radius: 1rem;
+  box-shadow: 0 10px 6px -6px #777;
 }
-
 header.section {
   padding-top: 0;
 }
@@ -83,7 +96,7 @@ header.section {
 }
 .second {
   font-weight: 500;
-  text-align: center;
+  /* text-align: center; */
   line-height: 2;
 }
 .second h1 {
@@ -128,7 +141,6 @@ img {
   text-transform: uppercase;
   font-weight: 700;
 }
-
 .img h3 {
   font-weight: 400;
   margin-bottom: 2rem;
@@ -189,7 +201,7 @@ footer .navbar {
 
   .second {
     font-weight: 500;
-    text-align: center;
+    /* text-align: center; */
     line-height: 1.5;
   }
   .second h1 {
@@ -226,7 +238,7 @@ footer .navbar {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    text-align: center;
+    /* text-align: center; */
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
 
@@ -310,7 +322,7 @@ footer .navbar {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    text-align: center;
+    /* text-align: center; */
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
 
@@ -346,7 +358,7 @@ footer .navbar {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    text-align: center;
+    /* text-align: center; */
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
 
@@ -379,7 +391,6 @@ footer .navbar {
     padding: 1rem;
     margin: 1rem;
     background-color: #ffffff;
-    text-align: center;
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
 
@@ -387,6 +398,10 @@ footer .navbar {
     width: 300px;
     margin: 1rem;
     border-radius: 5px;
+  }
+  .img p,
+  h3 {
+    margin-left: 1rem;
   }
 
   /* main ends here  */
