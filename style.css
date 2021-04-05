@@ -6,6 +6,7 @@
   padding: 0;
   transition: 250ms ease;
 }
+
 :root {
   --main-color: #91a6ff;
   --rich-black: #00171f;
@@ -41,7 +42,7 @@ a {
 /* header starts from here.*/
 header {
   /* background-color: rgb(225, 225, 255); */
-  background-color: #48acf0;
+  background-color: var(--blue-jeans);
   border-bottom-left-radius: 1rem;
   box-shadow: 0 10px 6px -6px #777;
 }
@@ -223,7 +224,7 @@ footer .navbar {
 
   /* navbar and tagline has been hidden here */
   .fogo {
-    font-size: 12px;
+    font-size: 16px;
     display: none;
   }
 
@@ -246,7 +247,7 @@ footer .navbar {
 
   footer .navbar {
     display: none;
-    font-size: 13px;
+    font-size: 16px;
   }
 
   /* main starts here  */
@@ -257,7 +258,7 @@ footer .navbar {
   }
   main.section {
     margin: 2rem 0 2rem 0;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .img {
@@ -323,7 +324,7 @@ footer .navbar {
 
   /* navbar and tagline has been hidden here */
   .fogo {
-    font-size: 12px;
+    font-size: 16px;
     display: none;
   }
 

@@ -4,11 +4,17 @@
   font-family: "Montserrat", sans-serif;
   margin: 0;
   padding: 0;
+  transition: 250ms ease;
 }
 
 :root {
   --main-color: #91a6ff;
   --rich-black: #00171f;
+  --black: #000000ff;
+  --blue-jeans: #48acf0ff;
+  --tickle-me-pink: #ff82a9ff;
+  --spanish-pink: #ffc0beff;
+  --misty-rose: #ffebe7ff;
 }
 
 li {
@@ -29,12 +35,13 @@ a {
 
 /* header starts from here.*/
 header {
-  background-color: var(--main-color);
+  background-color: var(--blue-jeans);
   /* border-bottom-left-radius: 1rem; */
 }
 
 header.section {
   padding-top: 0;
+  box-shadow: 0 10px 6px -6px #777;
 }
 .first {
   display: flex;
@@ -49,7 +56,7 @@ header.section {
   font-size: 45px;
   text-transform: uppercase;
   line-height: 0.9;
-  border-top: 4px solid rgb(226, 42, 186);
+  border-top: 4px solid #89023e;
 }
 
 .logo a {
@@ -87,19 +94,17 @@ header.section {
 }
 .second {
   font-weight: 500;
-  text-align: center;
   line-height: 2;
-  background-color: #f4f3ee;
+  margin-left: 1rem;
+  /* background-color: #f4f3ee; */
 }
 .second h1 {
-  padding: 2rem 0 1.5rem 0;
-  font-weight: 300;
+  margin: 2rem 1rem;
   text-transform: uppercase;
   font-weight: 700;
 }
 .second p {
   font-size: 1.3rem;
-  padding-bottom: 2rem;
   width: 90%;
   margin: 0 auto;
 }
@@ -125,6 +130,7 @@ header.section {
 main.section {
   margin: 2rem 0 2rem 0;
   font-size: 15px;
+  line-height: 1.5rem;
 }
 img {
   width: 300px;
@@ -171,13 +177,12 @@ img {
 
   /* navbar and tagline has been hidden here */
   .fogo {
-    font-size: 12px;
+    font-size: 16px;
     display: none;
   }
 
   .second {
     font-weight: 500;
-    text-align: center;
     line-height: 1.5;
   }
   .second h1 {
@@ -198,7 +203,7 @@ img {
   }
   main.section {
     margin: 2rem 0 2rem 0;
-    font-size: 15px;
+    font-size: 16px;
   }
 
   .img {
@@ -231,18 +236,12 @@ img {
   .speakers {
     display: flex;
     flex-direction: column-reverse;
-    /* text-align: center; */
-  }
-
-  .speakers h2 {
-    text-align: center;
-    margin: 1rem 0 1rem 0;
+    margin: 2rem 1rem;
   }
 
   .speakers h3 {
-    font-size: 16px;
-    text-align: center;
-    margin: 1rem 0 1.5rem 0;
+    font-size: 17px;
+    margin: 1rem 0 1rem 0;
   }
 
   /* main ends here  */
@@ -271,7 +270,7 @@ img {
 
   /* navbar and tagline has been hidden here */
   .fogo {
-    font-size: 12px;
+    font-size: 16px;
     display: none;
   }
 
