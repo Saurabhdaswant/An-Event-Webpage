@@ -33,7 +33,8 @@ a {
   padding: 2rem;
 }
 
-/* header starts from here.*/
+/*! header starts from here.*/
+
 header {
   background-color: var(--blue-jeans);
   /* border-bottom-left-radius: 1rem; */
@@ -94,9 +95,7 @@ header.section {
 }
 .second {
   font-weight: 500;
-  line-height: 2;
   margin-left: 1rem;
-  /* background-color: #f4f3ee; */
 }
 .second h1 {
   margin: 2rem 1rem;
@@ -143,11 +142,31 @@ img {
   font-weight: 700;
 }
 
+.img {
+  text-align: center;
+}
+
 .img h3 {
   font-weight: 400;
   margin-bottom: 2rem;
 }
 /* main ends here */
+
+/* footer starts here  */
+footer {
+  background-color: mistyrose;
+  border-top-right-radius: 1rem;
+}
+footer .container-center {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+}
+
+footer .navbar {
+  font-size: 13px;
+}
+/* footer ends here  */
 
 @media only screen and (max-width: 480px) {
   /* for all container to get in center  */
@@ -187,8 +206,7 @@ img {
   }
   .second h1 {
     font-size: 25px;
-    font-weight: 500;
-    line-height: 1.2;
+    font-weight: 700;
   }
   .second p {
     font-size: 1rem;
@@ -212,15 +230,13 @@ img {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    text-align: center;
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
 
   img {
     width: 150px;
-    border-radius: 0;
+    /* border-radius: 50%; */
     margin: 1rem;
-    border-radius: 5px;
   }
 
   .bold {
@@ -245,6 +261,11 @@ img {
   }
 
   /* main ends here  */
+
+  footer .navbar {
+    display: none;
+    font-size: 13px;
+  }
 }
 
 @media only screen and (min-width: 480px) and (max-width: 768px) {
@@ -278,7 +299,7 @@ img {
     line-height: 1.5;
   }
   .second h1 {
-    font-weight: 500;
+    font-weight: 700;
   }
   .second p {
     font-size: 1.2rem;
@@ -303,14 +324,13 @@ img {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    text-align: center;
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
 
   img {
     width: 270px;
     margin: 1rem;
-    border-radius: 5px;
+    border-radius: 50%;
   }
 
   /* main ends here  */
@@ -339,14 +359,13 @@ img {
     margin: 0 auto;
     background-color: #ffffff;
     margin-bottom: 2rem;
-    text-align: center;
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
 
   img {
     width: 270px;
     margin: 1rem;
-    border-radius: 5px;
+    border-radius: 50%;
   }
 
   /* main ends here  */
@@ -372,14 +391,13 @@ img {
     padding: 1rem;
     margin: 1rem;
     background-color: #ffffff;
-    text-align: center;
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
 
   img {
     width: 300px;
     margin: 1rem;
-    border-radius: 5px;
+    border-radius: 50%;
   }
 
   /* main ends here  */
