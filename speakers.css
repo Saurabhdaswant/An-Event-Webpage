@@ -250,7 +250,6 @@ footer .navbar {
     width: 12.5rem;
     padding: 1rem 0.5rem 1rem 0.5rem;
     margin: 0 auto;
-    background-color: #ffffff;
     margin-bottom: 2rem;
     box-shadow: 0px 2px 5px 5px #a3a0a036;
   }
@@ -480,4 +479,18 @@ footer .navbar {
   }
 
   /* main ends here  */
+}
+
+/* schedule style starts here  */
+
+.schedule {
+  color: rgba(128, 128, 128, 0.733);
+}
+
+.schedule a {
+  color: rgba(0, 0, 0, 0.63);
+}
+td {
+  padding: 1.6rem 1rem;
+  border-bottom: 1px solid rgba(110, 108, 108, 0.37);
 }
