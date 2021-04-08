@@ -491,6 +491,17 @@ footer .navbar {
   color: rgba(0, 0, 0, 0.63);
 }
 td {
-  padding: 1.6rem 1rem;
+  padding: 1.5rem 1rem;
   border-bottom: 1px solid rgba(110, 108, 108, 0.37);
+}
+
+th {
+  padding-right: 2rem;
+  font-weight: 100;
+  text-align: right;
+}
+
+.main-head {
+  font-size: 1.7rem;
+  font-weight: 500;
 }
