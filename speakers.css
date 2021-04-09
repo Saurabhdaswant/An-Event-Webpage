@@ -17,7 +17,8 @@
   --misty-rose: #ffebe7ff;
 }
 
-li {
+header li,
+footer li {
   list-style: none;
 }
 a {
@@ -508,4 +509,25 @@ th {
 .main-head {
   font-size: 1.7rem;
   font-weight: 500;
+}
+
+/* Register */
+
+.register {
+  display: flex;
+}
+
+.register-form {
+  margin-left: 2rem;
+}
+textarea {
+  display: block;
+  margin-bottom: 1rem;
+}
+.register-form a {
+  display: inline-block;
+  color: #f1f1f1;
+  background-color: rgb(66, 92, 63);
+  padding: 0.8rem 2rem;
+  border-radius: 5px;
 }
